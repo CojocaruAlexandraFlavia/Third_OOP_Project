@@ -7,7 +7,7 @@
 class Persoana
 {
 protected:
-    int CNP; /// 5 = barbat, 6 =  femeie
+    int CNP; /// 5 = barbat, 6 = femeie
     std::string nume;
     Film* film;
     int salariu;
@@ -22,6 +22,6 @@ public:
     friend std::istream& operator >> (std::istream&, Persoana& );
     friend std::ostream& operator << (std::ostream& , Persoana&);
     int getSalariu() const;
-    Film* getFilm() ;
+    Film* getFilm() const ;
 };
 
