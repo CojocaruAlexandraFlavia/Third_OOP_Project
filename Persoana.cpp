@@ -46,7 +46,7 @@ int Persoana:: getSalariu() const
 {
     return this->salariu;
 }
-Film* Persoana:: getFilm()
+Film* Persoana:: getFilm() const
 {
     return this->film;
 }
